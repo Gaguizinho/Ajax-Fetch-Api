@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultando CEP</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <style>
+        .ctn2 {
+            margin-top: 10%;
+            max-width: 50vw;
+            background-color: grey;
+            padding: 50px;
+            opacity: 95%;
+            border-radius: 5%;
+            color: #fff;
+        }
+    </style>
+    <div class="container ctn2">
+        <h1>Consultando CEP</h1>
+
+        
+        <form>
+            <div class="form-group">
+                <label for="cep">CEP</label>
+                <input class="form-control" type="text" maxlength="9" id="cep">
+                <small>00000-000</small>
+            </div>
+
+            <div class="form-group">
+                <label for="logradouro">Logradouro</label>
+                <input class="form-control" type="text" id="logradouro">
+                <small>Logradouro</small>
+            </div>
+
+            <div class="form-group">
+                <label for="bairro">Bairro</label>
+                <input class="form-control" type="text" id="bairro">
+                <small>Bairro</small>
+            </div>
+
+            <div class="form-group">
+                <label for="localidade">Localidade</label>
+                <input class="form-control" type="text" id="localidade">
+                <small>Localidade</small>
+            </div>
+
+            <div class="form-group">
+                <label for="uf">UF</label>
+                <input class="form-control" type="text" id="uf">
+                <small>Estado</small>
+            </div> 
+        </form>
+    </div>
+
+    <script src="src/js/main.js"></script>
+</body>
+</html>
